@@ -1,0 +1,6 @@
+model,score,timestamp,old_accuracy,new_accuracy,improved,action
+RandomForest,0.95,,,,,
+GradientBoosting,0.9416666666666668,,,,,
+SVM,0.95,,,,,
+LogisticRegression,0.9666666666666666,,,,,
+,,2026-02-03 05:38:02,1.0,0.9667,NO,MODEL_KEPT
