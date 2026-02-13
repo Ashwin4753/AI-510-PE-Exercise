@@ -1,0 +1,4 @@
+timestamp,features,prediction,latency_ms,is_error,error
+2026-02-13 20:03:53,"[5.1, 3.5, 1.4, 0.2]",0,6.46,False,
+2026-02-13 20:04:15,,,,True,Invalid input data.
+2026-02-13 20:04:28,"[1, 2]",,,True,Invalid input data.

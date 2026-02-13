@@ -1,0 +1,31 @@
+2026-02-13 20:00:30,994 - INFO - Application started: Monitoring and Logging in MLOps
+2026-02-13 20:00:31,131 - INFO - Model trained and saved successfully.
+2026-02-13 20:00:31,131 - INFO - Simulated log entry 1: Input=[0.3322099019862548, 0.9670036998012329, 0.8943863591640324, 0.0277553576403059] Output=0 Latency=2.22ms
+2026-02-13 20:00:31,131 - INFO - Simulated log entry 2: Input=[0.9648733430060993, 0.45023557173802853, 0.9253968728062906, 0.7028534493445849] Output=0 Latency=5.79ms
+2026-02-13 20:00:31,131 - INFO - Simulated log entry 3: Input=[0.4305192475192886, 0.05082449820591928, 0.515946938619342, 0.04852680888440741] Output=1 Latency=7.4ms
+2026-02-13 20:00:31,139 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.114:5000
+2026-02-13 20:00:31,139 - INFO - [33mPress CTRL+C to quit[0m
+2026-02-13 20:00:56,218 - INFO - 127.0.0.1 - - [13/Feb/2026 20:00:56] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-02-13 20:00:57,740 - INFO - Home route accessed.
+2026-02-13 20:00:57,740 - INFO - 127.0.0.1 - - [13/Feb/2026 20:00:57] "GET / HTTP/1.1" 200 -
+2026-02-13 20:03:00,571 - INFO - Application started: Monitoring and Logging in MLOps
+2026-02-13 20:03:00,726 - INFO - Model trained and saved successfully.
+2026-02-13 20:03:00,726 - INFO - Simulated log entry 1: Input=[0.5581143386227372, 0.3735359726170656, 0.3952121545981462, 0.765796671799354] Output=0 Latency=8.68ms
+2026-02-13 20:03:00,726 - INFO - Simulated log entry 2: Input=[0.9602654582490158, 0.7774719869200355, 0.12163834365971593, 0.8546782745057377] Output=0 Latency=8.57ms
+2026-02-13 20:03:00,727 - INFO - Simulated log entry 3: Input=[0.30147751419197477, 0.3140222297956373, 0.7949297339694122, 0.43956360582194354] Output=2 Latency=2.36ms
+2026-02-13 20:03:00,732 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.114:5000
+2026-02-13 20:03:00,732 - INFO - [33mPress CTRL+C to quit[0m
+2026-02-13 20:03:08,442 - INFO - Home route accessed.
+2026-02-13 20:03:08,443 - INFO - 127.0.0.1 - - [13/Feb/2026 20:03:08] "GET / HTTP/1.1" 200 -
+2026-02-13 20:03:53,936 - INFO - Prediction made | Input=[5.1, 3.5, 1.4, 0.2] | Output=0 | Correct=None | Latency=6.46ms
+2026-02-13 20:03:53,936 - INFO - 127.0.0.1 - - [13/Feb/2026 20:03:53] "POST /predict HTTP/1.1" 200 -
+2026-02-13 20:04:15,105 - ERROR - Invalid input data: missing JSON body or 'features' key.
+2026-02-13 20:04:15,105 - INFO - 127.0.0.1 - - [13/Feb/2026 20:04:15] "[31m[1mPOST /predict HTTP/1.1[0m" 400 -
+2026-02-13 20:04:28,409 - ERROR - Invalid input data: 'features' must be a list of length 4. Got: [1, 2]
+2026-02-13 20:04:28,410 - INFO - 127.0.0.1 - - [13/Feb/2026 20:04:28] "[31m[1mPOST /predict HTTP/1.1[0m" 400 -
